@@ -1,0 +1,19 @@
+{
+  "name": "Simple C++ HTTP client",
+  "build": {
+    "dockerfile": "../Dockerfile",
+    "context": ".."
+  },
+  // "runArgs": ["-u", "root"],
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+      },
+      "extensions": [
+        // "ms-vscode.cpptools",
+        "llvm-vs-code-extensions.vscode-clangd"
+      ]
+    }
+  }
+}
