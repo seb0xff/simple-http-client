@@ -1,6 +1,6 @@
 ## simple-http-client
 
-A simple HTTP client implemented on Linux system calls and wrapped in a C++ class.
+A simple HTTP client implemented on Linux system calls and wrapped in C++ classes.
 **Note:** I wrote it over 2 yrs ago to get familiar with Linux networking. For production use, consider using a more robust library like [curl](https://github.com/curl/curl).
 
 ![Alt Text](screenshot.png)
